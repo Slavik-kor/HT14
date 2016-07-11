@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+<meta charset="utf-8">
+    <title>Регистрация</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+
+  </head>
+  <body>
+<div class="container-fluid">
+ <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+              
+         <div class="container-fluid">
+        <div class="navbar-header">
+           
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">КИНОРЕЙТИНГ</a>
+        </div>
+               <div class="navbar-collapse collapse">
+                   <form action="" class="navbar-form navbar-right hidden-sm" >
+                       <div class="form-group">
+                           <input type="text" class="form-control" placeholder="Логин" value="">
+                       </div>
+                       <div class="form-group">
+                           <input type="password" class="form-control" placeholder="Пароль" value="">
+                       </div>
+                       <button type="submit" class="btn btn-primary">
+                        ВОЙТИ
+                       </button>
+                       <button class="btn btn-link" type="button" >
+                        <a href="registation.html">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+                       </button>
+                   </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+      <div class="col-lg-3 col-md-3 col-sm-3 sidebar">
+          <ul class="nav nav-sidebar ">
+            <li class="active"><a href="index.html">Новинки</a></li>
+            <li><a href="index.html">По рейтингу</a></li>
+            <li><a href="index.html">По жанру</a></li>
+            <li><a href="index.html">По году</a></li>
+          </ul>
+        </div>
+<div class="container col-md-9 col-lg-9 col-sm-9">
+
+ <form role="form">
+     <div class="form-group">
+         <h2 class="form-signin-heading">Заполните форму регистрации:</h2>
+     </div>
+     
+     <div class="form-group">
+  <label for="text">Логин</label>
+  <input type="text" class="form-control" id="login" placeholder="Придумайте логин">
+ </div> 
+ <div class="form-group">
+  <label for="pass">Пароль</label>
+  <input type="password" class="form-control" id="pass" placeholder="Пароль">
+ </div>
+     
+    <div class="form-group">
+  <label for="text">Имя</label>
+  <input type="text" class="form-control" id="first-name" placeholder="Имя">
+ </div>  
+     <div class="form-group">
+  <label for="text">Фамилия</label>
+  <input type="text" class="form-control" id="last-name" placeholder="Фамилия">
+ </div> 
+    <div class="form-group">
+  <label for="date">Дата рождения</label>
+        <input type="date" class="form-control" id="birthday" placeholder="Дата рождения">
+ </div>
+        
+        <div class="form-group">
+      <label for="text">Город</label>
+  <input type="text" class="form-control " id="city" placeholder="Город">
+   
+      </div>
+        
+ <div class="form-group">
+  <label for="email">Email</label>
+  <input type="email" class="form-control" id="email" placeholder="Введите email">
+ </div>
+ 
+ <div class="form-group">
+  <label for="text">Номер телефона</label>
+     <input type="tel" class="form-control" id="phone-number" placeholder="Номер телефона">
+      
+ </div>
+
+     <div class="form-group">
+         <label for="file" class="input input-file">Выбрать фото
+         <div class="button"><input type="file" id="file" onchange="this.parentNode.nextSibling.value = this.value"></div></label>
+         
+         </div>
+     <button type="submit" class="btn btn-success">Зарегистрироваться</button>
+     <button type="reset" class="btn btn-warning">Очистить</button>
+     <button type="button" class="btn btn-danger">Отмена</button>
+    </form>
+
+ 
+<div class="container" >
+  <div class="row">
+  <hr>
+    <div class="col-lg-12">
+      <div class="col-sm-8">
+        <a href="#" id="menu-toggle">Terms of Service</a> | <a href="#">Privacy</a>    
+      </div>
+      <div class="col-sm-4">
+        <p>© 2016 Training Epam. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>
